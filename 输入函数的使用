@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+short int a=0；
+short int b=0;
+int   sum=0;
+scanf("%d%d",&a&b);//报错的话用scanf_s(输入函数scanf是c自带的所以要用include<stdio.h>这个文件头文件申请这个功能)
+sum=a+b;
+printf("sum=%d\n",sum);
+  return 0;
+}
